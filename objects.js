@@ -4,7 +4,7 @@ var playlist = {
   eminem: 'rap god'
 }
 
-function updatePlaylist(thePlaylist, artist, song) {
+function updatePlaylist(thePlaylist, artistName, songTitle
 return object.assign({},thePlaylist, { [artist]: songTitle})
 }
 
