@@ -10,6 +10,10 @@ return object.assign({},thePlaylist, { [artist]: songTitle})
 
 updatedPlaylist(playlist, 'chainsmoker', 'dreaming'
 
+removeFromPlaylist(thePlaylist, artist) {
+  delete thePlaylist.artist
+  return thePlaylist;
+}
 // var playlist = {
 //   artist1: "song1",
 //   artist2: "song2",
