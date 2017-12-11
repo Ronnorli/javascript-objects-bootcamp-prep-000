@@ -1,5 +1,5 @@
 var playlist = {
-  usher: 'let it burn',
+  usher: 'confession',
   linkinpark: 'in the end',
-  eminem = 'rap god';
+  eminem: 'rap god'
 }
